@@ -1,152 +1,117 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="shortcut icon" href="1737549358908.png" type="image/x-icon">
-    <title>xzrasul</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Fraunces:ital,wght@0,300;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="name">XZRASUL<em>.</em></div>
-        <div class="tagline">
-          <div class="dot"></div>
-          Small steps big changes
-        </div>
-      </header>
 
-      <p class="bio">
-        My name is Rasul Muminov. I am passionate about web development,
-        technology, and artificial intelligence. I create my own
-        <a href="#terminal" onclick="runProjects()">projects</a> , learn new
-        <a href="#terminal" onclick="runSkills()">skills</a>, and actively
-        develop in programming, cybersecurity, and application development. I am
-        interested in modern technologies, enjoy working on real-world tasks,
-        and like sharing knowledge with others.
-      </p>
-      <div class="hero-stats">
-        <div class="stat">
-          <div class="stat-num">12</div>
-          <div class="stat-label">projects built</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">3</div>
-          <div class="stat-label">years coding</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">B1</div>
-          <div class="stat-label">english level</div>
-        </div>
-      </div>
-      <div class="block">
-        <div class="block-label">Projects</div>
-        <div class="project">
-          <div class="project-name">BIMGROUP</div>
-          <div class="project-meta">
-            <span class="project-stack">HTML · CSS · JS</span>
-            <a class="project-link" href="https://bimgroup.tj/" target="_blank"
-              >↗ visit</a
-            >
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="shortcut icon" href="1737549358908.png" type="image/x-icon">
+  <title>xzrasul</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Fraunces:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <div class="project">
-          <div class="project-name">CAFE-HB</div>
-          <div class="project-meta">
-            <span class="project-stack">HTML · CSS · JS</span>
-            <a
-              class="project-link"
-              href="https://cafehb.vercel.app/"
-              target="_blank"
-              >↗ demo</a
-            >
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-name">BRIGADES</div>
-          <div class="project-meta">
-            <span class="project-stack">HTML · CSS · JS</span>
-            <a
-              class="project-link"
-              href="https://workersadmin.vercel.app"
-              target="_blank"
-              >↗ demo</a
-            >
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-name">BOOSTER</div>
-          <div class="project-meta">
-            <span class="project-stack">HTML · CSS · JS</span>
-            <a
-              class="project-link"
-              href="https://t.me/xzinstagrambot"
-              target="_blank"
-              >↗ visit</a
-            >
-          </div>
-        </div>
-        <span class="project-stack">
-          <a class="btn-project" href="#terminal" onclick="runProjects()"
-            >More Projects</a
-          >
-        </span>
+<body>
+  <div class="container">
+    <header>
+      <div class="name">xzrasul<em>.</em></div>
+      <div class="tagline">
+        <div class="dot"></div>
+        Small steps big changes
       </div>
+    </header>
 
-      <div id="terminal" class="block">
-        <div class="block-label">Terminal</div>
-        <div class="terminal">
-          <div class="term-bar">
-            <div class="term-dot r"></div>
-            <div class="term-dot y"></div>
-            <div class="term-dot g"></div>
-          </div>
-          <div class="term-body" id="termBody">
-            <div>
-              <span class="prompt">~</span>
-              <span class="out">type <span class="k">help</span> to start</span>
-            </div>
-            <div class="input-row">
-              <span class="prompt">~</span>
-              <input
-                class="term-input"
-                id="termInput"
-                onkeydown="runCmd(event)"
-                oninput="this.value = this.value.toLowerCase()"
-                autocomplete="off"
-                spellcheck="false"
-              />
-            </div>
-          </div>
-        </div>
+    <p class="bio">
+      My name is Rasul Muminov. I am passionate about web development,
+      technology, and artificial intelligence. I create my own
+      <a href="#terminal" onclick="runProjects()">projects</a> , learn new
+      <a href="#terminal" onclick="runSkills()">skills</a>, and actively
+      develop in programming, cybersecurity, and application development. I am
+      interested in modern technologies, enjoy working on real-world tasks,
+      and like sharing knowledge with others.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">12</div>
+        <div class="stat-label">projects built</div>
       </div>
-      <div class="links">
-        <a class="link" href="https://t.me/xzrasul" target="_blank">Telegram</a>
-        <a class="link" href="https://github.com/xzrasul13" target="_blank"
-          >GitHub</a
-        >
-        <a
-          class="link"
-          href="#"
-          target="_blank"
-          >CV</a
-        >
-        <a class="link" href="mailto:xzrasul13@gmail.com" target="_blank"
-          >Email</a
-        >
-        <a class="link" href="https://instagram.com/xzrasul" target="_blank"
-          >Instagram</a
-        >
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">years coding</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">B1</div>
+        <div class="stat-label">english level</div>
       </div>
     </div>
+    <div class="block">
+      <div class="block-label">Projects</div>
+      <div class="project">
+        <div class="project-name">BIMGROUP</div>
+        <div class="project-meta">
+          <span class="project-stack">HTML · CSS · JS</span>
+          <a class="project-link" href="https://bimgroup.tj/" target="_blank">↗ visit</a>
+        </div>
+      </div>
 
-    <script src="script.js"></script>
-  </body>
+      <div class="project">
+        <div class="project-name">CAFE-HB</div>
+        <div class="project-meta">
+          <span class="project-stack">HTML · CSS · JS</span>
+          <a class="project-link" href="https://cafehb.vercel.app/" target="_blank">↗ demo</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-name">BRIGADES</div>
+        <div class="project-meta">
+          <span class="project-stack">HTML · CSS · JS</span>
+          <a class="project-link" href="https://workersadmin.vercel.app" target="_blank">↗ demo</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-name">BOOSTER</div>
+        <div class="project-meta">
+          <span class="project-stack">HTML · CSS · JS</span>
+          <a class="project-link" href="https://t.me/xzinstagrambot" target="_blank">↗ visit</a>
+        </div>
+      </div>
+      <span class="project-stack">
+        <a class="btn-project" href="#terminal" onclick="runProjects()">More Projects</a>
+      </span>
+    </div>
+
+    <div id="terminal" class="block">
+      <div class="block-label">Terminal</div>
+      <div class="terminal">
+        <div class="term-bar">
+          <div class="term-dot r"></div>
+          <div class="term-dot y"></div>
+          <div class="term-dot g"></div>
+        </div>
+        <div class="term-body" id="termBody">
+          <div>
+            <span class="prompt">~</span>
+            <span class="out">type <span class="k">help</span> to start</span>
+          </div>
+          <div class="input-row">
+            <span class="prompt">~</span>
+            <input class="term-input" id="termInput" onkeydown="runCmd(event)"
+              oninput="this.value = this.value.toLowerCase()" autocomplete="off" spellcheck="false" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="links">
+      <a class="link" href="https://t.me/xzrasul" target="_blank">Telegram</a>
+      <a class="link" href="https://github.com/xzrasul13" target="_blank">GitHub</a>
+      <a class="link" href="#" target="_blank">CV</a>
+      <a class="link" href="mailto:xzrasul13@gmail.com" target="_blank">Email</a>
+      <a class="link" href="https://instagram.com/xzrasul" target="_blank">Instagram</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
